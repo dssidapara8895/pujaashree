@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pujaashree – Under Construction</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: linear-gradient(to bottom, #fff0e6, #ffe6f0);
+      font-family: Georgia, serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      position: relative;
+      width: 95vw;
+      max-width: 1050px;
+      background-color: #fdf6ec;
+      border: 4px dashed #ffb6c1;
+      border-radius: 20px;
+      padding: 45px 20px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .corner-img {
+      position: absolute;
+      width: 125px;
+      height: 85px;
+      object-fit: cover;
+      border-radius: 60% / 50%;
+      border: 3px solid #e2a9b0;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .corner-left {
+      top: 35px;
+      left: 25px;
+    }
+
+    .corner-right {
+      top: 35px;
+      right: 25px;
+      transform: scaleX(-1);
+    }
+
+    .logo {
+      width: 95px;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 15px;
+
+      /* makes white JPG background blend with page */
+      mix-blend-mode: multiply;
+    }
+
+    h1 {
+      font-size: 45px;
+      color: #982323;
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 1px;
+    }
+
+    .u-tilak {
+      width: 30px;
+      height: 40px;
+      transform: translateY(6px);
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #5e4400;
+      margin-top: 15px;
+    }
+
+    footer {
+      font-size: 14px;
+      color: #666;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .corner-img {
+        width: 80px;
+        height: 55px;
+      }
+
+      .corner-left {
+        top: 20px;
+        left: 10px;
+      }
+
+      .corner-right {
+        top: 20px;
+        right: 10px;
+      }
+
+      .logo {
+        width: 70px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <img
+      src="laxmi-vishnu.png"
+      alt="Lakshmi Vishnu"
+      class="corner-img corner-left"
+    >
+
+    <img
+      src="laxmi-vishnu.png"
+      alt="Lakshmi Vishnu"
+      class="corner-img corner-right"
+    >
+
+    <img
+      src="spiritual-om-sign-10641344.jpg"
+      alt="Om Symbol"
+      class="logo"
+    >
+
+    <h1>
+      P
+      <svg
+        class="u-tilak"
+        viewBox="0 0 100 140"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10 10 L30 10 L30 90 Q50 120 70 90 L70 10 L90 10 L90 95 Q50 140 10 95 Z"
+          fill="#f4aa00"
+        />
+        <polygon
+          points="48,30 52,30 56,100 44,100"
+          fill="#a11200"
+        />
+      </svg>
+      jaashree
+    </h1>
+
+    <h2>Website Under Construction</h2>
+
+    <footer>
+      &copy; 2026 Pujaashree. All rights reserved.
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
