@@ -29,7 +29,7 @@
       background-color: #fdf6ec;
       border: 4px dashed #ffb6c1;
       border-radius: 20px;
-      padding: 45px 20px;
+      padding: 140px 20px 45px;
       text-align: center;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     }
@@ -56,14 +56,12 @@
     }
 
     .logo {
-      width: 95px;
+      position: absolute;
+      top: 35px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 85px;
       height: auto;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 15px;
-
-      /* makes white JPG background blend with page */
       mix-blend-mode: multiply;
     }
 
@@ -112,11 +110,16 @@
       }
 
       .logo {
-        width: 70px;
+        top: 18px;
+        width: 60px;
       }
 
       h1 {
         font-size: 32px;
+      }
+
+      .container {
+        padding: 105px 15px 35px;
       }
     }
   </style>
